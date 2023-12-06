@@ -10,4 +10,4 @@ url = "https://teamoctaneforever.github.io/pkgs/test.txt"
 name = "bigtest"
 version = "1.0.0"
 authors = ["Jesse"]
-url = "https://teamoctaneforever.github.io/pkgs/20megabyte.txt"
+url = "https://teamoctaneforever.github.io/pkgs/megabyte.txt"
