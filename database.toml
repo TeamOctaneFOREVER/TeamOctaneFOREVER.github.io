@@ -5,3 +5,9 @@ name = "test"
 version = "1.0.0"
 authors = ["Jesse"]
 url = "https://teamoctaneforever.github.io/pkgs/test.txt"
+
+[[packages]]
+name = "bigtest"
+version = "1.0.0"
+authors = ["Jesse"]
+url = "https://teamoctaneforever.github.io/pkgs/20megabyte.txt"
