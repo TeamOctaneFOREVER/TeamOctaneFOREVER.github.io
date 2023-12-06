@@ -1,6 +1,6 @@
 # To be worked on...
 
-[package]
+[[packages]]
 name = "test"
 version = "1.0.0"
 authors = ["Jesse"]
