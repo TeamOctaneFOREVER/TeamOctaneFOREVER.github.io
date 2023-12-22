@@ -11,9 +11,11 @@ name = "bigtest"
 version = "1.0.0"
 authors = ["Jesse"]
 url = "https://teamoctaneforever.github.io/pkgs/megabyte.txt"
+dependencies = ["test"]  # Specify dependencies as a list
 
 [[packages]]
 name = "multi-test"
 version = "2.0.0"
 authors = ["Jesse"]
-url = ["https://teamoctaneforever.github.io/pkgs/megabyte.txt", "https://teamoctaneforever.github.io/pkgs/test.txt"]
+url = ""  # Add the URL for the package
+dependencies = ["test", "bigtest"]  # Specify multiple dependencies as a list
