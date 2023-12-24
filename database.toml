@@ -10,6 +10,7 @@ version = "1.0.0"
 authors = ["Jesse"]
 url = "https://teamoctaneforever.github.io/pkgs/test.txt"
 license = "OPK Open-Source"
+format = "txt"
 
 [[packages]]
 name = "bigtest"
@@ -17,11 +18,4 @@ version = "1.0.0"
 authors = ["Jesse"]
 url = "https://teamoctaneforever.github.io/pkgs/megabyte.txt"
 license = "OPK Open-Source"
-
-[[packages]]
-name = "multi-test"
-version = "2.0.0"
-authors = ["Jesse"]
-url = ""  # Add the URL for the package
-dependencies = ["test", "bigtest"]  # Specify multiple dependencies as a list
-license = ""
+format = "txt"
