@@ -1,7 +1,7 @@
 # To be worked on...
 
 [repository]
-name = "Diesel"
+name = "main"
 
 
 [[packages]]
@@ -9,13 +9,15 @@ name = "test"
 version = "1.0.0"
 authors = ["Jesse"]
 url = "https://teamoctaneforever.github.io/pkgs/test.txt"
+license = "OPK Open-Source"
 
 [[packages]]
 name = "bigtest"
 version = "1.0.0"
 authors = ["Jesse"]
 url = "https://teamoctaneforever.github.io/pkgs/megabyte.txt"
-dependencies = ["test"]  # Specify dependencies as a list
+license = "null"
+license = "OPK Open-Source"
 
 [[packages]]
 name = "multi-test"
